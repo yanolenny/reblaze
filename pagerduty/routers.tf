@@ -5,7 +5,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
       label = "Events relating to Orbotech"
       condition {
-        expression = "event.summary matches part 'orbotech'"
+        expression = "event.summary matches part 'orbotech '"
       }
       actions {
         route_to = pagerduty_service.Orbotech.id
@@ -14,7 +14,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
        label = "Events relating to Ace"
        condition {
-        expression = "event.summary matches part 'ace'"
+        expression = "event.summary matches part 'ace '"
        }
        actions {
         route_to = pagerduty_service.Ace.id
@@ -23,7 +23,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
        label = "Events relating to Adama"
        condition {
-        expression = "event.summary matches part 'adama'"
+        expression = "event.summary matches part 'adama '"
        }
        actions {
         route_to = pagerduty_service.Adama.id
@@ -32,7 +32,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
        label = "Events relating to AdTorqueEdge.com"
        condition {
-        expression = "event.summary matches part 'adtorqueedge'"
+        expression = "event.summary matches part 'adtorqueedge '"
        }
        actions {
         route_to = pagerduty_service.AdTorqueEdge.id
