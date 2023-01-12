@@ -8,7 +8,7 @@ resource "pagerduty_event_orchestration_router" "router" {
         expression = "event.summary matches part 'orbotech '"
       }
       actions {
-        route_to = pagerduty_service.Orbotech.id
+        route_to = data.pagerduty_service.Orbotech.id
       }
     }
     rule {
@@ -17,7 +17,7 @@ resource "pagerduty_event_orchestration_router" "router" {
         expression = "event.summary matches part 'ace\\W'"
        }
        actions {
-        route_to = pagerduty_service.Ace.id
+        route_to = data.pagerduty_service.Ace.id
        }
     }
     rule {
@@ -35,7 +35,7 @@ resource "pagerduty_event_orchestration_router" "router" {
         expression = "event.summary matches part 'adama '"
        }
        actions {
-        route_to = pagerduty_service.Adama.id
+        route_to = data.pagerduty_service.Adama.id
        }
     }
     rule {
@@ -44,7 +44,7 @@ resource "pagerduty_event_orchestration_router" "router" {
         expression = "event.summary matches part 'adtorqueedge '"
        }
        actions {
-        route_to = pagerduty_service.AdTorqueEdge.id
+        route_to = data.pagerduty_service.AdTorqueEdge.id
        }
     }
     rule {
@@ -53,7 +53,7 @@ resource "pagerduty_event_orchestration_router" "router" {
         expression = "event.summary matches part 'aerolineas'"
        }
        actions {
-        route_to = pagerduty_service.AeroLines.id
+        route_to = data.pagerduty_service.AeroLines.id
        }
     }  
   }
