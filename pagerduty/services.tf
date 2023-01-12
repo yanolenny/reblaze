@@ -10,6 +10,12 @@ resource "pagerduty_service" "Ace" {
   escalation_policy = data.pagerduty_escalation_policy.code_red.id
 }
 
+resource "pagerduty_service" "Acer" {
+  name = "Ace"
+  description = "Ace (ace)"
+  escalation_policy = data.pagerduty_escalation_policy.code_red.id
+}
+
 resource "pagerduty_service" "Adama" {
   name = "Adama"
   description = "Adama (adama)"
