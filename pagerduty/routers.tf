@@ -3,59 +3,41 @@ resource "pagerduty_event_orchestration_router" "router" {
   set {
     id = "start"
     rule {
-      label = "Events relating to Orbotech"
-      condition {
-        expression = "event.summary matches part 'orbotech '"
-      }
-      actions {
-        route_to = data.pagerduty_service.Orbotech.id
-      }
+     label = "Events relating to Ace"
+     condition {
+      expression = "event.summary matches part 'ace\b'"
+     }
+     actions {
+      route_to = pagerduty_service.Ace.id
+     }
     }
     rule {
-       label = "Events relating to Ace"
-       condition {
-        expression = "event.summary matches part 'ace\\W'"
-       }
-       actions {
-        route_to = data.pagerduty_service.Ace.id
-       }
+     label = "Events relating to Adama"
+     condition {
+      expression = "event.summary matches part 'adama\b'"
+     }
+     actions {
+      route_to = pagerduty_service.Adama.id
+     }
     }
     rule {
-       label = "Events relating to Acer"
-       condition {
-        expression = "event.summary matches regex 'acer\\W'"
-       }
-       actions {
-        route_to = pagerduty_service.Acer.id
-       }
+     label = "Events relating to AdTorqueEdge.com"
+     condition {
+      expression = "event.summary matches part 'adtorqueedge\b'"
+     }
+     actions {
+      route_to = pagerduty_service.AdTorqueEdge.com.id
+     }
     }
     rule {
-       label = "Events relating to Adama"
-       condition {
-        expression = "event.summary matches part 'adama '"
-       }
-       actions {
-        route_to = data.pagerduty_service.Adama.id
-       }
+     label = "Events relating to AeroLines"
+     condition {
+      expression = "event.summary matches part 'aerolineas\b'"
+     }
+     actions {
+      route_to = pagerduty_service.AeroLines.id
+     }
     }
-    rule {
-       label = "Events relating to AdTorqueEdge.com"
-       condition {
-        expression = "event.summary matches part 'adtorqueedge '"
-       }
-       actions {
-        route_to = data.pagerduty_service.AdTorqueEdge.id
-       }
-    }
-    rule {
-       label = "Events relating to AeroLines"
-       condition {
-        expression = "event.summary matches part 'aerolineas'"
-       }
-       actions {
-        route_to = data.pagerduty_service.AeroLines.id
-       }
-    }  
   }
   catch_all {
     actions {
