@@ -1,25 +1,20 @@
-data "pagerduty_service" "Orbotech" {
-  name              = "Orbotech"
-}
-
-data "pagerduty_service" "Ace" {
-  name = "Ace"
-}
-
-resource "pagerduty_service" "Acer" {
+resource "pagerduty_service" "Ace" {
   name = "Ace"
   description = "Ace (ace)"
-  escalation_policy = data.pagerduty_escalation_policy.code_red.id
+  escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-
-data "pagerduty_service" "Adama" {
+resource "pagerduty_service" "Adama" {
   name = "Adama"
+  description = "Adama (adama)"
+  escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-
-data "pagerduty_service" "AdTorqueEdge" {
-  name = "AdTorqueEdge"
+resource "pagerduty_service" "AdTorqueEdge.com" {
+  name = "AdTorqueEdge.com"
+  description = "AdTorqueEdge.com (adtorqueedge)"
+  escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-
-data "pagerduty_service" "AeroLines" {
+resource "pagerduty_service" "AeroLines" {
   name = "AeroLines"
+  description = "AeroLines (aerolineas)"
+  escalation_policy = data.pagerduty_escalation_policy.default.id
 }
