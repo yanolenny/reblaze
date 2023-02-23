@@ -1,5 +1,5 @@
 resource "pagerduty_event_orchestration_router" "router" {
-  event_orchestration = pagerduty_event_orchestration.NewRelic.id
+  event_orchestration = pagerduty_event_orchestration.devops.id
   set {
     id = "start"
     rule {
