@@ -35,7 +35,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'aerolineas'"
      }
      actions {
-      route_to = pagerduty_service.aerolines.id
+      route_to = pagerduty_service.aerolineas.id
      }
     }
   }
