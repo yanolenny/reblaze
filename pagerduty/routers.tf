@@ -8,7 +8,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'ace'"
      }
      actions {
-      route_to = pagerduty_service.Ace.id
+      route_to = pagerduty_service.ace.id
      }
     }
     rule {
@@ -17,7 +17,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'adama'"
      }
      actions {
-      route_to = pagerduty_service.Adama.id
+      route_to = pagerduty_service.adama.id
      }
     }
     rule {
@@ -26,7 +26,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'adtorqueedge'"
      }
      actions {
-      route_to = pagerduty_service.AdTorqueEdge.id
+      route_to = pagerduty_service.adtorqueedge.id
      }
     }
     rule {
@@ -35,7 +35,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'aerolineas'"
      }
      actions {
-      route_to = pagerduty_service.AeroLines.id
+      route_to = pagerduty_service.aerolines.id
      }
     }
   }
