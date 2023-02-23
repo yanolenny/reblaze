@@ -10,7 +10,7 @@ resource "pagerduty_service" "Adama" {
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 
-resource "pagerduty_service" "AdTorqueEdge.com" {
+resource "pagerduty_service" "AdTorqueEdge" {
   name = "AdTorqueEdge.com"
   description = "AdTorqueEdge.com (adtorqueedge)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
