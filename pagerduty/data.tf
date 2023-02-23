@@ -7,5 +7,5 @@ data "pagerduty_escalation_policy" "code_red"{
 }
 
 data "pagerduty_service" "DevOps" {
-  name = "DevOps"
+  name = "Devops"
 }
