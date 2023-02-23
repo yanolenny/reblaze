@@ -21,12 +21,12 @@ resource "pagerduty_event_orchestration_router" "router" {
      }
     }
     rule {
-     label = "Events relating to AdTorqueEdge.com"
+     label = "Events relating to AdTorqueEdge"
      condition {
       expression = "event.summary matches part 'adtorqueedge\\b'"
      }
      actions {
-      route_to = pagerduty_service.AdTorqueEdge.com.id
+      route_to = pagerduty_service.AdTorqueEdge.id
      }
     }
     rule {
