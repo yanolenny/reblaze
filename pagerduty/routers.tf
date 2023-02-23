@@ -41,7 +41,7 @@ resource "pagerduty_event_orchestration_router" "router" {
   }
   catch_all {
     actions {
-      route_to = "devops"
+      route_to = "DevOps"
     }
   }
 }
