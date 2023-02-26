@@ -2966,7 +2966,7 @@ rule {
 rule {
  label = "Events relating to Ace"
  condition {
-  expression = "event.summary matches part 'ace\b\\\\b'"
+  expression = "event.summary matches part 'ace\\\\b'"
  }
  actions {
   route_to = pagerduty_service.Ace.id
