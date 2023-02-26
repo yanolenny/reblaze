@@ -3,12 +3,12 @@ resource "pagerduty_event_orchestration_router" "router" {
   set {
     id = "start"
 rule {
- label = "Events relating to Celcomhostprojectproduction"
+ label = "Events relating to Cecomhostprojectproduction"
  condition {
-  expression = "event.summary matches part 'celcomhostprojectproduction\\\\b'"
+  expression = "event.summary matches part 'cecomhostprojectproduction\\\\b'"
  }
  actions {
-  route_to = pagerduty_service.Celcomhostprojectproduction.id
+  route_to = pagerduty_service.Cecomhostprojectproduction.id
  }
 }
 rule {
@@ -273,12 +273,12 @@ rule {
  }
 }
 rule {
- label = "Events relating to Celcomhostproject01"
+ label = "Events relating to Cecomhostproject01"
  condition {
-  expression = "event.summary matches part 'celcomhostproject01\\\\b'"
+  expression = "event.summary matches part 'cecomhostproject01\\\\b'"
  }
  actions {
-  route_to = pagerduty_service.Celcomhostproject01.id
+  route_to = pagerduty_service.Cecomhostproject01.id
  }
 }
 rule {
@@ -462,12 +462,12 @@ rule {
  }
 }
 rule {
- label = "Events relating to Rbzcompliance2"
+ label = "Events relating to Rbcompliance2"
  condition {
-  expression = "event.summary matches part 'rbzcompliance2\\\\b'"
+  expression = "event.summary matches part 'rbcompliance2\\\\b'"
  }
  actions {
-  route_to = pagerduty_service.Rbzcompliance2.id
+  route_to = pagerduty_service.Rbcompliance2.id
  }
 }
 rule {
@@ -561,12 +561,12 @@ rule {
  }
 }
 rule {
- label = "Events relating to AdTorqueEdge.com"
+ label = "Events relating to AdTorqueEdgecom"
  condition {
   expression = "event.summary matches part 'adtorqueedge\\\\b'"
  }
  actions {
-  route_to = pagerduty_service.AdTorqueEdge.com.id
+  route_to = pagerduty_service.AdTorqueEdgecom.id
  }
 }
 rule {
@@ -2055,12 +2055,12 @@ rule {
  }
 }
 rule {
- label = "Events relating to Qualcom"
+ label = "Events relating to Quacom"
  condition {
-  expression = "event.summary matches part 'qualcom\\\\b'"
+  expression = "event.summary matches part 'quacom\\\\b'"
  }
  actions {
-  route_to = pagerduty_service.Qualcom.id
+  route_to = pagerduty_service.Quacom.id
  }
 }
 rule {
@@ -2534,7 +2534,7 @@ rule {
 rule {
  label = "Events relating to Comda"
  condition {
-  expression = "event.summary matches part 'comda\\\\b'"
+  expression = "event.summary matches part comda\\\\b'"
  }
  actions {
   route_to = pagerduty_service.Comda.id
@@ -2813,7 +2813,7 @@ rule {
 rule {
  label = "Events relating to Como"
  condition {
-  expression = "event.summary matches part 'como\\\\b'"
+  expression = "event.summary matches part como\\\\b'"
  }
  actions {
   route_to = pagerduty_service.Como.id
