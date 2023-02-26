@@ -566,7 +566,7 @@ resource "pagerduty_event_orchestration_router" "router" {
       expression = "event.summary matches part 'adtorqueedge\\\\b'"
      }
      actions {
-      route_to = pagerduty_service.AdTorqueEdge.com.id
+      route_to = pagerduty_service.AdTorqueEdgecom.id
      }
     }
     rule {
