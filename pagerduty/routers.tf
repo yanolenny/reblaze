@@ -2534,7 +2534,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
      label = "Events relating to Comda"
      condition {
-      expression = "event.summary matches part comda\\\\b'"
+      expression = "event.summary matches part 'comda\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Comda.id
@@ -2813,7 +2813,7 @@ resource "pagerduty_event_orchestration_router" "router" {
     rule {
      label = "Events relating to Como"
      condition {
-      expression = "event.summary matches part como\\\\b'"
+      expression = "event.summary matches part 'como\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Como.id
