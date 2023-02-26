@@ -1,6 +1,6 @@
-resource "pagerduty_service" "Celcomhostprojectproduction" {
-  name = "Celcomhostprojectproduction"
-  description = "Celcomhostprojectproduction (celcomhostprojectproduction)"
+resource "pagerduty_service" "Cecomhostprojectproduction" {
+  name = "Cecomhostprojectproduction"
+  description = "Cecomhostprojectproduction (cecomhostprojectproduction)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Agcpartn724293144879715090" {
@@ -148,9 +148,9 @@ resource "pagerduty_service" "Mpprodreblazeteststg" {
   description = "Mpprodreblazeteststg (mpprodreblazeteststg)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-resource "pagerduty_service" "Celcomhostproject01" {
-  name = "Celcomhostproject01"
-  description = "Celcomhostproject01 (celcomhostproject01)"
+resource "pagerduty_service" "Cecomhostproject01" {
+  name = "Cecomhostproject01"
+  description = "Cecomhostproject01 (cecomhostproject01)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Rbzaws221986932086" {
@@ -253,9 +253,9 @@ resource "pagerduty_service" "Leonardohotels" {
   description = "Leonardohotels (leonardohotels)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-resource "pagerduty_service" "Rbzcompliance2" {
-  name = "Rbzcompliance2"
-  description = "Rbzcompliance2 (rbzcompliance2)"
+resource "pagerduty_service" "Rbcompliance2" {
+  name = "Rbcompliance2"
+  description = "Rbcompliance2 (rbcompliance2)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Rbzdevmerge001" {
@@ -308,9 +308,9 @@ resource "pagerduty_service" "Zoomanalytics" {
   description = "Zoomanalytics (zoomanalytics)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-resource "pagerduty_service" "AdTorqueEdge.com" {
-  name = "AdTorqueEdge.com"
-  description = "AdTorqueEdge.com (adtorqueedge)"
+resource "pagerduty_service" "AdTorqueEdgecom" {
+  name = "AdTorqueEdgecom"
+  description = "AdTorqueEdgecom (adtorqueedge)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Hzreblazestg" {
@@ -1138,9 +1138,9 @@ resource "pagerduty_service" "Qa2140E" {
   description = "Qa2140E (qa2140e)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-resource "pagerduty_service" "Qualcom" {
-  name = "Qualcom"
-  description = "Qualcom (qualcom)"
+resource "pagerduty_service" "Quacom" {
+  name = "Quacom"
+  description = "Quacom (quacom)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Rbztest" {
@@ -1405,7 +1405,7 @@ resource "pagerduty_service" "Cetqa" {
 }
 resource "pagerduty_service" "Comda" {
   name = "Comda"
-  description = "Comda (comda)"
+  description = "Comda comda)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Copia" {
@@ -1560,7 +1560,7 @@ resource "pagerduty_service" "Cams" {
 }
 resource "pagerduty_service" "Como" {
   name = "Como"
-  description = "Como (como)"
+  description = "Como como)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
 resource "pagerduty_service" "Elal" {
