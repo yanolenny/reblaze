@@ -308,8 +308,8 @@ resource "pagerduty_service" "Zoomanalytics" {
   description = "Zoomanalytics (zoomanalytics)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
-resource "pagerduty_service" "AdTorqueEdge.com" {
-  name = "AdTorqueEdge.com"
+resource "pagerduty_service" "AdTorqueEdgecom" {
+  name = "AdTorqueEdgecom"
   description = "AdTorqueEdge.com (adtorqueedge)"
   escalation_policy = data.pagerduty_escalation_policy.default.id
 }
