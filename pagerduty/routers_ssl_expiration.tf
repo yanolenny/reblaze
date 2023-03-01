@@ -7,9 +7,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cecomhostprojectproduction\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cecomhostprojectproduction\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cecomhostprojectproduction.id
      }
@@ -18,9 +15,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Agcpartn724293144879715090"
      condition {
       expression = "event.summary matches regex 'agcpartn724293144879715090\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'agcpartn724293144879715090\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Agcpartn724293144879715090.id
@@ -31,9 +25,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'americane82018410522879632\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'americane82018410522879632\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Americane82018410522879632.id
      }
@@ -42,9 +33,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Appviewx816140081204059790"
      condition {
       expression = "event.summary matches regex 'appviewx816140081204059790\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'appviewx816140081204059790\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Appviewx816140081204059790.id
@@ -55,9 +43,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'bigimmer281521707765566363\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bigimmer281521707765566363\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Bigimmer281521707765566363.id
      }
@@ -66,9 +51,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Datagovp633462572263654780"
      condition {
       expression = "event.summary matches regex 'datagovp633462572263654780\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'datagovp633462572263654780\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Datagovp633462572263654780.id
@@ -79,9 +61,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'elefftest64895039768164394\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'elefftest64895039768164394\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Elefftest64895039768164394.id
      }
@@ -90,9 +69,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Formativ718648307850097729"
      condition {
       expression = "event.summary matches regex 'formativ718648307850097729\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'formativ718648307850097729\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Formativ718648307850097729.id
@@ -103,9 +79,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'inetwebs152061635206655917\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'inetwebs152061635206655917\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Inetwebs152061635206655917.id
      }
@@ -114,9 +87,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Israelrai27963377783270403"
      condition {
       expression = "event.summary matches regex 'israelrai27963377783270403\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'israelrai27963377783270403\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Israelrai27963377783270403.id
@@ -127,9 +97,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'newrbzqa103306614922995878\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'newrbzqa103306614922995878\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Newrbzqa103306614922995878.id
      }
@@ -138,9 +105,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Opencuri696928180841517713"
      condition {
       expression = "event.summary matches regex 'opencuri696928180841517713\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'opencuri696928180841517713\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Opencuri696928180841517713.id
@@ -151,9 +115,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzaws78972580297192148311\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws78972580297192148311\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzaws78972580297192148311.id
      }
@@ -162,9 +123,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzqamp0030160679959478244"
      condition {
       expression = "event.summary matches regex 'rbzqamp0030160679959478244\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzqamp0030160679959478244\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzqamp0030160679959478244.id
@@ -175,9 +133,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzqamp0073595184297896571\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzqamp0073595184297896571\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzqamp0073595184297896571.id
      }
@@ -186,9 +141,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Reblazed706840781522387801"
      condition {
       expression = "event.summary matches regex 'reblazed706840781522387801\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'reblazed706840781522387801\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Reblazed706840781522387801.id
@@ -199,9 +151,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'reblazede37304730316182808\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'reblazede37304730316182808\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Reblazede37304730316182808.id
      }
@@ -210,9 +159,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Va2Devqvn57129192392208814"
      condition {
       expression = "event.summary matches regex 'va2devqvn57129192392208814\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'va2devqvn57129192392208814\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Va2Devqvn57129192392208814.id
@@ -223,9 +169,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'bluegrid92868745751327215\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bluegrid92868745751327215\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Bluegrid92868745751327215.id
      }
@@ -234,9 +177,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cotohacfgwservice6Epszaaf"
      condition {
       expression = "event.summary matches regex 'cotohacfgwservice6epszaaf\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cotohacfgwservice6epszaaf\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cotohacfgwservice6Epszaaf.id
@@ -247,9 +187,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qavadim847914756549420121\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qavadim847914756549420121\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qavadim847914756549420121.id
      }
@@ -258,9 +195,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzolga753103565707641934"
      condition {
       expression = "event.summary matches regex 'rbzolga753103565707641934\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzolga753103565707641934\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzolga753103565707641934.id
@@ -271,9 +205,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'chiper639237995632723462\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'chiper639237995632723462\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Chiper639237995632723462.id
      }
@@ -282,9 +213,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cyqurex52970321352494334"
      condition {
       expression = "event.summary matches regex 'cyqurex52970321352494334\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cyqurex52970321352494334\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cyqurex52970321352494334.id
@@ -295,9 +223,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'reblaze74690738161970604\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'reblaze74690738161970604\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Reblaze74690738161970604.id
      }
@@ -306,9 +231,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Searce597402607595260740"
      condition {
       expression = "event.summary matches regex 'searce597402607595260740\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'searce597402607595260740\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Searce597402607595260740.id
@@ -319,9 +241,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'israel69595972334368573\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'israel69595972334368573\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Israel69595972334368573.id
      }
@@ -330,9 +249,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Estoreproduction194504"
      condition {
       expression = "event.summary matches regex 'estoreproduction194504\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'estoreproduction194504\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Estoreproduction194504.id
@@ -343,9 +259,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qaolga3953602350965345\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qaolga3953602350965345\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qaolga3953602350965345.id
      }
@@ -354,9 +267,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mpprodreblazeteststg"
      condition {
       expression = "event.summary matches regex 'mpprodreblazeteststg\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mpprodreblazeteststg\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mpprodreblazeteststg.id
@@ -367,9 +277,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cecomhostproject01\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cecomhostproject01\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cecomhostproject01.id
      }
@@ -378,9 +285,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzaws221986932086"
      condition {
       expression = "event.summary matches regex 'rbzaws221986932086\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws221986932086\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzaws221986932086.id
@@ -391,9 +295,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzaws232079419768\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws232079419768\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzaws232079419768.id
      }
@@ -402,9 +303,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzaws479335881964"
      condition {
       expression = "event.summary matches regex 'rbzaws479335881964\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws479335881964\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzaws479335881964.id
@@ -415,9 +313,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzaws589416701894\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws589416701894\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzaws589416701894.id
      }
@@ -426,9 +321,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzaws667713386313"
      condition {
       expression = "event.summary matches regex 'rbzaws667713386313\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws667713386313\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzaws667713386313.id
@@ -439,9 +331,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzaws789809902545\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzaws789809902545\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzaws789809902545.id
      }
@@ -450,9 +339,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cth2Prod1Zxnri8X8"
      condition {
       expression = "event.summary matches regex 'cth2prod1zxnri8x8\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cth2prod1zxnri8x8\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cth2Prod1Zxnri8X8.id
@@ -463,9 +349,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'forbesdevelopment\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'forbesdevelopment\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Forbesdevelopment.id
      }
@@ -474,9 +357,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Notrbztestproject"
      condition {
       expression = "event.summary matches regex 'notrbztestproject\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'notrbztestproject\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Notrbztestproject.id
@@ -487,9 +367,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'prefectprode1e512\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'prefectprode1e512\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Prefectprode1E512.id
      }
@@ -498,9 +375,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Betfaircasinostg"
      condition {
       expression = "event.summary matches regex 'betfaircasinostg\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'betfaircasinostg\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Betfaircasinostg.id
@@ -511,9 +385,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'forbesproduction\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'forbesproduction\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Forbesproduction.id
      }
@@ -522,9 +393,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Lvpn527370280444"
      condition {
       expression = "event.summary matches regex 'lvpn527370280444\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'lvpn527370280444\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Lvpn527370280444.id
@@ -535,9 +403,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'pnivpd7k5tsndoom\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pnivpd7k5tsndoom\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Pnivpd7K5Tsndoom.id
      }
@@ -546,9 +411,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzdevbratislava"
      condition {
       expression = "event.summary matches regex 'rbzdevbratislava\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevbratislava\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzdevbratislava.id
@@ -559,9 +421,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzdevtzury2202\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevtzury2202\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzdevtzury2202.id
      }
@@ -570,9 +429,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Va2Prodgisxiq15"
      condition {
       expression = "event.summary matches regex 'va2prodgisxiq15\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'va2prodgisxiq15\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Va2Prodgisxiq15.id
@@ -583,9 +439,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'chargeafterstg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'chargeafterstg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Chargeafterstg.id
      }
@@ -594,9 +447,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Gtaureblazestg"
      condition {
       expression = "event.summary matches regex 'gtaureblazestg\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gtaureblazestg\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Gtaureblazestg.id
@@ -607,9 +457,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'leonardohotels\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'leonardohotels\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Leonardohotels.id
      }
@@ -618,9 +465,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbcompliance2"
      condition {
       expression = "event.summary matches regex 'rbcompliance2\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbcompliance2\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbcompliance2.id
@@ -631,9 +475,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzdevmerge001\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevmerge001\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzdevmerge001.id
      }
@@ -642,9 +483,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzqasomething"
      condition {
       expression = "event.summary matches regex 'rbzqasomething\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzqasomething\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzqasomething.id
@@ -655,9 +493,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'va2devqvnx6mz0\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'va2devqvnx6mz0\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Va2Devqvnx6Mz0.id
      }
@@ -666,9 +501,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Betfaircasino"
      condition {
       expression = "event.summary matches regex 'betfaircasino\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'betfaircasino\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Betfaircasino.id
@@ -679,9 +511,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'defaultstuff2\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'defaultstuff2\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Defaultstuff2.id
      }
@@ -690,9 +519,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Hzreblazeprod"
      condition {
       expression = "event.summary matches regex 'hzreblazeprod\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hzreblazeprod\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Hzreblazeprod.id
@@ -703,9 +529,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ironsolutions\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ironsolutions\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ironsolutions.id
      }
@@ -714,9 +537,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Machinerypete"
      condition {
       expression = "event.summary matches regex 'machinerypete\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'machinerypete\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Machinerypete.id
@@ -727,9 +547,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'pplprodfephx2\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pplprodfephx2\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Pplprodfephx2.id
      }
@@ -738,9 +555,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Zoomanalytics"
      condition {
       expression = "event.summary matches regex 'zoomanalytics\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'zoomanalytics\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Zoomanalytics.id
@@ -751,9 +565,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'adtorqueedge\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'adtorqueedge\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.AdTorqueEdgecom.id
      }
@@ -762,9 +573,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Hzreblazestg"
      condition {
       expression = "event.summary matches regex 'hzreblazestg\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hzreblazestg\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Hzreblazestg.id
@@ -775,9 +583,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'payoneerxstg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'payoneerxstg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Payoneerxstg.id
      }
@@ -786,9 +591,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ppluatfephx2"
      condition {
       expression = "event.summary matches regex 'ppluatfephx2\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ppluatfephx2\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ppluatfephx2.id
@@ -799,9 +601,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzqaprod001\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzqaprod001\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzqaprod001.id
      }
@@ -810,9 +609,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzqaprod220"
      condition {
       expression = "event.summary matches regex 'rbzqaprod220\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzqaprod220\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzqaprod220.id
@@ -823,9 +619,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stormferrero\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stormferrero\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stormferrero.id
      }
@@ -834,9 +627,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stormreplymt"
      condition {
       expression = "event.summary matches regex 'stormreplymt\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stormreplymt\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stormreplymt.id
@@ -847,9 +637,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'threelayerst\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'threelayerst\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Threelayerst.id
      }
@@ -858,9 +645,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Tmprotection"
      condition {
       expression = "event.summary matches regex 'tmprotection\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tmprotection\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Tmprotection.id
@@ -871,9 +655,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'twobsecure02\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'twobsecure02\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Twobsecure02.id
      }
@@ -882,9 +663,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Backlotcars"
      condition {
       expression = "event.summary matches regex 'backlotcars\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'backlotcars\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Backlotcars.id
@@ -895,9 +673,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'boltreblaze\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'boltreblaze\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Boltreblaze.id
      }
@@ -906,9 +681,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Careblazeqa"
      condition {
       expression = "event.summary matches regex 'careblazeqa\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'careblazeqa\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Careblazeqa.id
@@ -919,9 +691,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cellexpertx\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cellexpertx\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cellexpertx.id
      }
@@ -930,9 +699,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Chargeafter"
      condition {
       expression = "event.summary matches regex 'chargeafter\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'chargeafter\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Chargeafter.id
@@ -943,9 +709,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'datagovtest\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'datagovtest\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Datagovtest.id
      }
@@ -954,9 +717,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Flashcoffee"
      condition {
       expression = "event.summary matches regex 'flashcoffee\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'flashcoffee\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Flashcoffee.id
@@ -967,9 +727,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'gearlaunchx\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gearlaunchx\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Gearlaunchx.id
      }
@@ -978,9 +735,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Gokturkteam"
      condition {
       expression = "event.summary matches regex 'gokturkteam\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gokturkteam\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Gokturkteam.id
@@ -991,9 +745,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'gtaureblaze\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gtaureblaze\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Gtaureblaze.id
      }
@@ -1002,9 +753,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Iolpbsalute"
      condition {
       expression = "event.summary matches regex 'iolpbsalute\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iolpbsalute\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Iolpbsalute.id
@@ -1015,9 +763,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'israelhayom\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'israelhayom\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Israelhayom.id
      }
@@ -1026,9 +771,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Lifefitness"
      condition {
       expression = "event.summary matches regex 'lifefitness\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'lifefitness\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Lifefitness.id
@@ -1039,9 +781,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mifinitypay\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mifinitypay\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mifinitypay.id
      }
@@ -1050,9 +789,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Movereblaze"
      condition {
       expression = "event.summary matches regex 'movereblaze\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'movereblaze\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Movereblaze.id
@@ -1063,9 +799,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'openfintech\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'openfintech\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Openfintech.id
      }
@@ -1074,9 +807,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzdevmp004"
      condition {
       expression = "event.summary matches regex 'rbzdevmp004\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevmp004\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzdevmp004.id
@@ -1087,9 +817,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzdevqnomy\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevqnomy\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzdevqnomy.id
      }
@@ -1098,9 +825,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzopsazr01"
      condition {
       expression = "event.summary matches regex 'rbzopsazr01\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzopsazr01\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzopsazr01.id
@@ -1111,9 +835,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'samanageeur\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'samanageeur\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Samanageeur.id
      }
@@ -1122,9 +843,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Shikunbinui"
      condition {
       expression = "event.summary matches regex 'shikunbinui\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'shikunbinui\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Shikunbinui.id
@@ -1135,9 +853,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tipranksstg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tipranksstg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tipranksstg.id
      }
@@ -1146,9 +861,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ventureslab"
      condition {
       expression = "event.summary matches regex 'ventureslab\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ventureslab\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ventureslab.id
@@ -1159,9 +871,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'aerolineas\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'aerolineas\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.AeroLines.id
      }
@@ -1170,9 +879,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Betfairstg"
      condition {
       expression = "event.summary matches regex 'betfairstg\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'betfairstg\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Betfairstg.id
@@ -1183,9 +889,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'bitsofgold\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bitsofgold\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Bitsofgold.id
      }
@@ -1194,9 +897,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Callkeysys"
      condition {
       expression = "event.summary matches regex 'callkeysys\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'callkeysys\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Callkeysys.id
@@ -1207,9 +907,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'carrefoure\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'carrefoure\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Carrefoure.id
      }
@@ -1218,9 +915,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cettesting"
      condition {
       expression = "event.summary matches regex 'cettesting\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cettesting\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cettesting.id
@@ -1231,9 +925,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'digicenter\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'digicenter\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Digicenter.id
      }
@@ -1242,9 +933,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Dstuff2200"
      condition {
       expression = "event.summary matches regex 'dstuff2200\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'dstuff2200\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Dstuff2200.id
@@ -1255,9 +943,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'eshettours\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'eshettours\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Eshettours.id
      }
@@ -1266,9 +951,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Glassesusa"
      condition {
       expression = "event.summary matches regex 'glassesusa\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'glassesusa\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Glassesusa.id
@@ -1279,9 +961,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'iectesttls\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iectesttls\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Iectesttls.id
      }
@@ -1290,9 +969,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mcureblaze"
      condition {
       expression = "event.summary matches regex 'mcureblaze\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mcureblaze\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mcureblaze.id
@@ -1303,9 +979,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'megazonesb\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'megazonesb\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Megazonesb.id
      }
@@ -1314,9 +987,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Menoramivt"
      condition {
       expression = "event.summary matches regex 'menoramivt\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'menoramivt\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Menoramivt.id
@@ -1327,9 +997,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'platformsh\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'platformsh\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Platformsh.id
      }
@@ -1338,9 +1005,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzacademy"
      condition {
       expression = "event.summary matches regex 'rbzacademy\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzacademy\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzacademy.id
@@ -1351,9 +1015,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzdevtest\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzdevtest\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzdevtest.id
      }
@@ -1362,9 +1023,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbzwebsite"
      condition {
       expression = "event.summary matches regex 'rbzwebsite\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzwebsite\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbzwebsite.id
@@ -1375,9 +1033,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rbzwizprod\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbzwizprod\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rbzwizprod.id
      }
@@ -1386,9 +1041,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Salefreaks"
      condition {
       expression = "event.summary matches regex 'salefreaks\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'salefreaks\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Salefreaks.id
@@ -1399,9 +1051,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stormreply\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stormreply\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stormreply.id
      }
@@ -1410,9 +1059,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Superpharm"
      condition {
       expression = "event.summary matches regex 'superpharm\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'superpharm\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Superpharm.id
@@ -1423,9 +1069,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'twobsecure\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'twobsecure\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Twobsecure.id
      }
@@ -1434,9 +1077,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Wallashops"
      condition {
       expression = "event.summary matches regex 'wallashops\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wallashops\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Wallashops.id
@@ -1447,9 +1087,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'wallatours\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wallatours\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Wallatours.id
      }
@@ -1458,9 +1095,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Bdirector"
      condition {
       expression = "event.summary matches regex 'bdirector\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bdirector\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Bdirector.id
@@ -1471,9 +1105,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'brasilseg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'brasilseg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Brasilseg.id
      }
@@ -1482,9 +1113,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Careblaze"
      condition {
       expression = "event.summary matches regex 'careblaze\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'careblaze\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Careblaze.id
@@ -1495,9 +1123,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cleartrip\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cleartrip\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cleartrip.id
      }
@@ -1506,9 +1131,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Coinberry"
      condition {
       expression = "event.summary matches regex 'coinberry\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'coinberry\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Coinberry.id
@@ -1519,9 +1141,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'datanomik\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'datanomik\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Datanomik.id
      }
@@ -1530,9 +1149,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Delasport"
      condition {
       expression = "event.summary matches regex 'delasport\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'delasport\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Delasport.id
@@ -1543,9 +1159,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'directa24\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'directa24\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Directa24.id
      }
@@ -1554,9 +1167,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Dlocalapi"
      condition {
       expression = "event.summary matches regex 'dlocalapi\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'dlocalapi\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Dlocalapi.id
@@ -1567,9 +1177,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'dshepherd\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'dshepherd\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Dshepherd.id
      }
@@ -1578,9 +1185,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Efimatica"
      condition {
       expression = "event.summary matches regex 'efimatica\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'efimatica\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Efimatica.id
@@ -1591,9 +1195,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ekreblaze\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ekreblaze\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ekreblaze.id
      }
@@ -1602,9 +1203,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Elalstage"
      condition {
       expression = "event.summary matches regex 'elalstage\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'elalstage\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Elalstage.id
@@ -1615,9 +1213,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'erosgroup\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'erosgroup\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Erosgroup.id
      }
@@ -1626,9 +1221,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Fishbrain"
      condition {
       expression = "event.summary matches regex 'fishbrain\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'fishbrain\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Fishbrain.id
@@ -1639,9 +1231,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'formatemp\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'formatemp\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Formatemp.id
      }
@@ -1650,9 +1239,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Gtreblaze"
      condition {
       expression = "event.summary matches regex 'gtreblaze\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gtreblaze\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Gtreblaze.id
@@ -1663,9 +1249,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'haifamuni\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'haifamuni\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Haifamuni.id
      }
@@ -1674,9 +1257,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Hirematic"
      condition {
       expression = "event.summary matches regex 'hirematic\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hirematic\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Hirematic.id
@@ -1687,9 +1267,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'hmnetwork\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hmnetwork\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Hmnetwork.id
      }
@@ -1698,9 +1275,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Hyposwiss"
      condition {
       expression = "event.summary matches regex 'hyposwiss\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hyposwiss\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Hyposwiss.id
@@ -1711,9 +1285,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'idreblaze\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'idreblaze\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Idreblaze.id
      }
@@ -1722,9 +1293,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mfsafrica"
      condition {
       expression = "event.summary matches regex 'mfsafrica\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mfsafrica\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mfsafrica.id
@@ -1735,9 +1303,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'moovitstg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'moovitstg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Moovitstg.id
      }
@@ -1746,9 +1311,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Multipass"
      condition {
       expression = "event.summary matches regex 'multipass\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'multipass\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Multipass.id
@@ -1759,9 +1321,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'northgate\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'northgate\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Northgate.id
      }
@@ -1770,9 +1329,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Olga12345"
      condition {
       expression = "event.summary matches regex 'olga12345\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'olga12345\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Olga12345.id
@@ -1783,9 +1339,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'orbograph\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'orbograph\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Orbograph.id
      }
@@ -1794,9 +1347,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Payoneerx"
      condition {
       expression = "event.summary matches regex 'payoneerx\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'payoneerx\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Payoneerx.id
@@ -1807,9 +1357,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'smartpldt\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'smartpldt\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Smartpldt.id
      }
@@ -1818,9 +1365,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stg2202Xa"
      condition {
       expression = "event.summary matches regex 'stg2202xa\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2202xa\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stg2202Xa.id
@@ -1831,9 +1375,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tkgbridge\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tkgbridge\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tkgbridge.id
      }
@@ -1842,9 +1383,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Wesureusa"
      condition {
       expression = "event.summary matches regex 'wesureusa\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wesureusa\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Wesureusa.id
@@ -1855,9 +1393,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'wscsports\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wscsports\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Wscsports.id
      }
@@ -1866,9 +1401,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Betterup"
      condition {
       expression = "event.summary matches regex 'betterup\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'betterup\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Betterup.id
@@ -1879,9 +1411,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'bookaway\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bookaway\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Bookaway.id
      }
@@ -1890,9 +1419,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Champion"
      condition {
       expression = "event.summary matches regex 'champion\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'champion\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Champion.id
@@ -1903,9 +1429,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'chingari\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'chingari\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Chingari.id
      }
@@ -1914,9 +1437,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cruiseit"
      condition {
       expression = "event.summary matches regex 'cruiseit\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cruiseit\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cruiseit.id
@@ -1927,9 +1447,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'demossdk\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'demossdk\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Demossdk.id
      }
@@ -1938,9 +1455,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Flexport"
      condition {
       expression = "event.summary matches regex 'flexport\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'flexport\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Flexport.id
@@ -1951,9 +1465,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'flipkart\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'flipkart\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Flipkart.id
      }
@@ -1962,9 +1473,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Holdprod"
      condition {
       expression = "event.summary matches regex 'holdprod\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'holdprod\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Holdprod.id
@@ -1975,9 +1483,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'iclgroup\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iclgroup\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Iclgroup.id
      }
@@ -1986,9 +1491,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Iconnect"
      condition {
       expression = "event.summary matches regex 'iconnect\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iconnect\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Iconnect.id
@@ -1999,9 +1501,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ituranar\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ituranar\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ituranar.id
      }
@@ -2010,9 +1509,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ituranbr"
      condition {
       expression = "event.summary matches regex 'ituranbr\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ituranbr\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ituranbr.id
@@ -2023,9 +1519,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'liveustg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'liveustg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Liveustg.id
      }
@@ -2034,9 +1527,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Luzzatto"
      condition {
       expression = "event.summary matches regex 'luzzatto\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'luzzatto\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Luzzatto.id
@@ -2047,9 +1537,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mellanox\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mellanox\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mellanox.id
      }
@@ -2058,9 +1545,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Meteorit"
      condition {
       expression = "event.summary matches regex 'meteorit\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'meteorit\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Meteorit.id
@@ -2071,9 +1555,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'meuhedet\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'meuhedet\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Meuhedet.id
      }
@@ -2082,9 +1563,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mindgeek"
      condition {
       expression = "event.summary matches regex 'mindgeek\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mindgeek\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mindgeek.id
@@ -2095,9 +1573,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'moovitqa\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'moovitqa\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Moovitqa.id
      }
@@ -2106,9 +1581,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Musicbuk"
      condition {
       expression = "event.summary matches regex 'musicbuk\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'musicbuk\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Musicbuk.id
@@ -2119,9 +1591,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'opaltech\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'opaltech\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Opaltech.id
      }
@@ -2130,9 +1599,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to P4Refuel"
      condition {
       expression = "event.summary matches regex 'p4refuel\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'p4refuel\\\\b'"
      }
      actions {
       route_to = pagerduty_service.P4Refuel.id
@@ -2143,9 +1609,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'payoneer\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'payoneer\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Payoneer.id
      }
@@ -2154,9 +1617,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Priority"
      condition {
       expression = "event.summary matches regex 'priority\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'priority\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Priority.id
@@ -2167,9 +1627,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'proficio\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'proficio\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Proficio.id
      }
@@ -2178,9 +1635,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Qa21210Y"
      condition {
       expression = "event.summary matches regex 'qa21210y\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa21210y\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Qa21210Y.id
@@ -2191,9 +1645,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qa21260g\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa21260g\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qa21260G.id
      }
@@ -2202,9 +1653,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Samanage"
      condition {
       expression = "event.summary matches regex 'samanage\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'samanage\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Samanage.id
@@ -2215,9 +1663,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'smartnpv\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'smartnpv\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Smartnpv.id
      }
@@ -2226,9 +1671,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Sodexoin"
      condition {
       expression = "event.summary matches regex 'sodexoin\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sodexoin\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Sodexoin.id
@@ -2239,9 +1681,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stg2160e\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2160e\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stg2160E.id
      }
@@ -2250,9 +1689,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stg2161B"
      condition {
       expression = "event.summary matches regex 'stg2161b\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2161b\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stg2161B.id
@@ -2263,9 +1699,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stg2180b\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2180b\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stg2180B.id
      }
@@ -2274,9 +1707,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stg2180C"
      condition {
       expression = "event.summary matches regex 'stg2180c\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2180c\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stg2180C.id
@@ -2287,9 +1717,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stg2201b\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2201b\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stg2201B.id
      }
@@ -2298,9 +1725,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stg2202A"
      condition {
       expression = "event.summary matches regex 'stg2202a\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2202a\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stg2202A.id
@@ -2311,9 +1735,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'stg2202x\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2202x\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Stg2202X.id
      }
@@ -2322,9 +1743,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Tipranks"
      condition {
       expression = "event.summary matches regex 'tipranks\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tipranks\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Tipranks.id
@@ -2335,9 +1753,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tradairx\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tradairx\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tradairx.id
      }
@@ -2346,9 +1761,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Virtisus"
      condition {
       expression = "event.summary matches regex 'virtisus\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'virtisus\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Virtisus.id
@@ -2359,9 +1771,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'wavesuat\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wavesuat\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Wavesuat.id
      }
@@ -2370,9 +1779,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Zegnarow"
      condition {
       expression = "event.summary matches regex 'zegnarow\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'zegnarow\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Zegnarow.id
@@ -2383,9 +1789,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'alljobs\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'alljobs\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Alljobs.id
      }
@@ -2394,9 +1797,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Betfair"
      condition {
       expression = "event.summary matches regex 'betfair\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'betfair\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Betfair.id
@@ -2407,9 +1807,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'biodata\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'biodata\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Biodata.id
      }
@@ -2418,9 +1815,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Bnology"
      condition {
       expression = "event.summary matches regex 'bnology\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bnology\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Bnology.id
@@ -2431,9 +1825,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cachcow\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cachcow\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cachcow.id
      }
@@ -2442,9 +1833,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cashcow"
      condition {
       expression = "event.summary matches regex 'cashcow\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cashcow\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cashcow.id
@@ -2455,9 +1843,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cellp02\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cellp02\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cellp02.id
      }
@@ -2466,9 +1851,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cetprep"
      condition {
       expression = "event.summary matches regex 'cetprep\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cetprep\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cetprep.id
@@ -2479,9 +1861,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cloudmd\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cloudmd\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cloudmd.id
      }
@@ -2490,9 +1869,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cloudwm"
      condition {
       expression = "event.summary matches regex 'cloudwm\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cloudwm\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cloudwm.id
@@ -2503,9 +1879,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'datasec\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'datasec\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Datasec.id
      }
@@ -2514,9 +1887,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Dermpro"
      condition {
       expression = "event.summary matches regex 'dermpro\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'dermpro\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Dermpro.id
@@ -2527,9 +1897,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'doralon\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'doralon\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Doralon.id
      }
@@ -2538,9 +1905,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Electra"
      condition {
       expression = "event.summary matches regex 'electra\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'electra\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Electra.id
@@ -2551,9 +1915,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'gazprom\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gazprom\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Gazprom.id
      }
@@ -2562,9 +1923,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Hagihon"
      condition {
       expression = "event.summary matches regex 'hagihon\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'hagihon\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Hagihon.id
@@ -2575,9 +1933,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'horizon\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'horizon\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Horizon.id
      }
@@ -2586,9 +1941,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ituranx"
      condition {
       expression = "event.summary matches regex 'ituranx\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ituranx\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ituranx.id
@@ -2599,9 +1951,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'knesset\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'knesset\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Knesset.id
      }
@@ -2610,9 +1959,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Matrixc"
      condition {
       expression = "event.summary matches regex 'matrixc\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'matrixc\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Matrixc.id
@@ -2623,9 +1969,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mycheck\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mycheck\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mycheck.id
      }
@@ -2634,9 +1977,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Openpay"
      condition {
       expression = "event.summary matches regex 'openpay\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'openpay\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Openpay.id
@@ -2647,9 +1987,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'pointer\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pointer\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Pointer.id
      }
@@ -2658,9 +1995,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Popmart"
      condition {
       expression = "event.summary matches regex 'popmart\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'popmart\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Popmart.id
@@ -2671,9 +2005,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'prudent\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'prudent\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Prudent.id
      }
@@ -2682,9 +2013,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Purplle"
      condition {
       expression = "event.summary matches regex 'purplle\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'purplle\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Purplle.id
@@ -2695,9 +2023,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qa21210\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa21210\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qa21210.id
      }
@@ -2706,9 +2031,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Qa21212"
      condition {
       expression = "event.summary matches regex 'qa21212\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa21212\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Qa21212.id
@@ -2719,9 +2041,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qa2140d\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa2140d\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qa2140D.id
      }
@@ -2730,9 +2049,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Qa2140E"
      condition {
       expression = "event.summary matches regex 'qa2140e\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa2140e\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Qa2140E.id
@@ -2743,9 +2059,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'quacom\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'quacom\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Quacom.id
      }
@@ -2754,9 +2067,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rbztest"
      condition {
       expression = "event.summary matches regex 'rbztest\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rbztest\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rbztest.id
@@ -2767,9 +2077,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'rentoza\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rentoza\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Rentoza.id
      }
@@ -2778,9 +2085,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Segment"
      condition {
       expression = "event.summary matches regex 'segment\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'segment\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Segment.id
@@ -2791,9 +2095,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'shostak\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'shostak\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Shostak.id
      }
@@ -2802,9 +2103,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Skylabs"
      condition {
       expression = "event.summary matches regex 'skylabs\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'skylabs\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Skylabs.id
@@ -2815,9 +2113,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'sonaefs\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sonaefs\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Sonaefs.id
      }
@@ -2826,9 +2121,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Sonaemc"
      condition {
       expression = "event.summary matches regex 'sonaemc\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sonaemc\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Sonaemc.id
@@ -2839,9 +2131,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'sphereo\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sphereo\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Sphereo.id
      }
@@ -2850,9 +2139,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stg2200"
      condition {
       expression = "event.summary matches regex 'stg2200\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stg2200\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stg2200.id
@@ -2863,9 +2149,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'strauss\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'strauss\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Strauss.id
      }
@@ -2874,9 +2157,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Sysbind"
      condition {
       expression = "event.summary matches regex 'sysbind\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sysbind\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Sysbind.id
@@ -2887,9 +2167,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'taasuka\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'taasuka\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Taasuka.id
      }
@@ -2898,9 +2175,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Tenurex"
      condition {
       expression = "event.summary matches regex 'tenurex\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tenurex\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Tenurex.id
@@ -2911,9 +2185,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'amidar\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'amidar\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Amidar.id
      }
@@ -2922,9 +2193,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Armyph"
      condition {
       expression = "event.summary matches regex 'armyph\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'armyph\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Armyph.id
@@ -2935,9 +2203,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'avesta\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'avesta\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Avesta.id
      }
@@ -2946,9 +2211,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cetnew"
      condition {
       expression = "event.summary matches regex 'cetnew\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cetnew\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cetnew.id
@@ -2959,9 +2221,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'colman\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'colman\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Colman.id
      }
@@ -2970,9 +2229,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cycura"
      condition {
       expression = "event.summary matches regex 'cycura\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cycura\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cycura.id
@@ -2983,9 +2239,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'demos2\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'demos2\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Demos2.id
      }
@@ -2994,9 +2247,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Fattal"
      condition {
       expression = "event.summary matches regex 'fattal\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'fattal\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Fattal.id
@@ -3007,9 +2257,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'goniyo\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'goniyo\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Goniyo.id
      }
@@ -3018,9 +2265,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Halman"
      condition {
       expression = "event.summary matches regex 'halman\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'halman\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Halman.id
@@ -3031,9 +2275,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'inatec\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'inatec\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Inatec.id
      }
@@ -3042,9 +2283,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Iremit"
      condition {
       expression = "event.summary matches regex 'iremit\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iremit\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Iremit.id
@@ -3055,9 +2293,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'isstax\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'isstax\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Isstax.id
      }
@@ -3066,9 +2301,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Kahane"
      condition {
       expression = "event.summary matches regex 'kahane\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'kahane\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Kahane.id
@@ -3079,9 +2311,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mohawk\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mohawk\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mohawk.id
      }
@@ -3090,9 +2319,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Moovit"
      condition {
       expression = "event.summary matches regex 'moovit\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'moovit\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Moovit.id
@@ -3103,9 +2329,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'pnistg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pnistg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Pnistg.id
      }
@@ -3114,9 +2337,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Qa2126"
      condition {
       expression = "event.summary matches regex 'qa2126\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa2126\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Qa2126.id
@@ -3127,9 +2347,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'qa2128\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qa2128\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Qa2128.id
      }
@@ -3138,9 +2355,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rafael"
      condition {
       expression = "event.summary matches regex 'rafael\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rafael\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rafael.id
@@ -3151,9 +2365,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ruppin\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ruppin\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ruppin.id
      }
@@ -3162,9 +2373,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Sodexo"
      condition {
       expression = "event.summary matches regex 'sodexo\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sodexo\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Sodexo.id
@@ -3175,9 +2383,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tchain\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tchain\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tchain.id
      }
@@ -3186,9 +2391,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Viaaus"
      condition {
       expression = "event.summary matches regex 'viaaus\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'viaaus\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Viaaus.id
@@ -3199,9 +2401,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'viastg\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'viastg\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Viastg.id
      }
@@ -3210,9 +2409,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Viatyo"
      condition {
       expression = "event.summary matches regex 'viatyo\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'viatyo\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Viatyo.id
@@ -3223,9 +2419,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'virtis\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'virtis\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Virtis.id
      }
@@ -3234,9 +2427,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Wellht"
      condition {
       expression = "event.summary matches regex 'wellht\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wellht\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Wellht.id
@@ -3247,9 +2437,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'wesure\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wesure\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Wesure.id
      }
@@ -3258,9 +2445,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Yarkon"
      condition {
       expression = "event.summary matches regex 'yarkon\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'yarkon\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Yarkon.id
@@ -3271,9 +2455,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'zimmer\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'zimmer\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Zimmer.id
      }
@@ -3282,9 +2463,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Adama"
      condition {
       expression = "event.summary matches regex 'adama\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'adama\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Adama.id
@@ -3295,9 +2473,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'alice\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'alice\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Alice.id
      }
@@ -3306,9 +2481,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Allot"
      condition {
       expression = "event.summary matches regex 'allot\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'allot\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Allot.id
@@ -3319,9 +2491,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'alpha\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'alpha\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Alpha.id
      }
@@ -3330,9 +2499,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ariel"
      condition {
       expression = "event.summary matches regex 'ariel\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ariel\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ariel.id
@@ -3343,9 +2509,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'astro\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'astro\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Astro.id
      }
@@ -3354,9 +2517,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Baoyi"
      condition {
       expression = "event.summary matches regex 'baoyi\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'baoyi\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Baoyi.id
@@ -3367,9 +2527,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'cetqa\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cetqa\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Cetqa.id
      }
@@ -3378,9 +2535,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Comda"
      condition {
       expression = "event.summary matches regex 'comda\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'comda\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Comda.id
@@ -3391,9 +2545,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'copia\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'copia\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Copia.id
      }
@@ -3402,9 +2553,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Csirt"
      condition {
       expression = "event.summary matches regex 'csirt\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'csirt\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Csirt.id
@@ -3415,9 +2563,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'demos\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'demos\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Demos.id
      }
@@ -3426,9 +2571,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Eloan"
      condition {
       expression = "event.summary matches regex 'eloan\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'eloan\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Eloan.id
@@ -3439,9 +2581,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'epldt\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'epldt\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Epldt.id
      }
@@ -3450,9 +2589,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Flink"
      condition {
       expression = "event.summary matches regex 'flink\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'flink\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Flink.id
@@ -3463,9 +2599,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'katzd\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'katzd\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Katzd.id
      }
@@ -3474,9 +2607,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Liveu"
      condition {
       expression = "event.summary matches regex 'liveu\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'liveu\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Liveu.id
@@ -3487,9 +2617,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'lusha\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'lusha\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Lusha.id
      }
@@ -3498,9 +2625,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Maman"
      condition {
       expression = "event.summary matches regex 'maman\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'maman\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Maman.id
@@ -3511,9 +2635,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'matav\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'matav\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Matav.id
      }
@@ -3522,9 +2643,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Metro"
      condition {
       expression = "event.summary matches regex 'metro\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'metro\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Metro.id
@@ -3535,9 +2653,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mwell\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mwell\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mwell.id
      }
@@ -3546,9 +2661,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Nsure"
      condition {
       expression = "event.summary matches regex 'nsure\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'nsure\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Nsure.id
@@ -3559,9 +2671,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ortil\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ortil\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ortil.id
      }
@@ -3570,9 +2679,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Panda"
      condition {
       expression = "event.summary matches regex 'panda\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'panda\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Panda.id
@@ -3583,9 +2689,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'pango\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pango\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Pango.id
      }
@@ -3594,9 +2697,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Qnomy"
      condition {
       expression = "event.summary matches regex 'qnomy\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'qnomy\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Qnomy.id
@@ -3607,9 +2707,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'reali\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'reali\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Reali.id
      }
@@ -3618,9 +2715,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Reign"
      condition {
       expression = "event.summary matches regex 'reign\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'reign\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Reign.id
@@ -3631,9 +2725,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ronbs\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ronbs\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ronbs.id
      }
@@ -3642,9 +2733,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Synel"
      condition {
       expression = "event.summary matches regex 'synel\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'synel\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Synel.id
@@ -3655,9 +2743,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tomax\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tomax\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tomax.id
      }
@@ -3666,9 +2751,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Waves"
      condition {
       expression = "event.summary matches regex 'waves\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'waves\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Waves.id
@@ -3679,9 +2761,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'zegna\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'zegna\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Zegna.id
      }
@@ -3690,9 +2769,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Alef"
      condition {
       expression = "event.summary matches regex 'alef\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'alef\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Alef.id
@@ -3703,9 +2779,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'apna\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'apna\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Apna.id
      }
@@ -3714,9 +2787,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Berl"
      condition {
       expression = "event.summary matches regex 'berl\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'berl\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Berl.id
@@ -3727,9 +2797,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'bnhp\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'bnhp\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Bnhp.id
      }
@@ -3738,9 +2805,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Cams"
      condition {
       expression = "event.summary matches regex 'cams\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'cams\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Cams.id
@@ -3751,9 +2815,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'como\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'como\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Como.id
      }
@@ -3762,9 +2823,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Elal"
      condition {
       expression = "event.summary matches regex 'elal\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'elal\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Elal.id
@@ -3775,9 +2833,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'fibi\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'fibi\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Fibi.id
      }
@@ -3786,9 +2841,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Inss"
      condition {
       expression = "event.summary matches regex 'inss\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'inss\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Inss.id
@@ -3799,9 +2851,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'itgx\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'itgx\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Itgx.id
      }
@@ -3810,9 +2859,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Kolh"
      condition {
       expression = "event.summary matches regex 'kolh\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'kolh\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Kolh.id
@@ -3823,9 +2869,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mako\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mako\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mako.id
      }
@@ -3834,9 +2877,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mchp"
      condition {
       expression = "event.summary matches regex 'mchp\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mchp\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mchp.id
@@ -3847,9 +2887,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'mgar\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mgar\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Mgar.id
      }
@@ -3858,9 +2895,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Moch"
      condition {
       expression = "event.summary matches regex 'moch\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'moch\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Moch.id
@@ -3871,9 +2905,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ntuc\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ntuc\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ntuc.id
      }
@@ -3882,9 +2913,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Sidn"
      condition {
       expression = "event.summary matches regex 'sidn\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'sidn\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Sidn.id
@@ -3895,9 +2923,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'umtb\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'umtb\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Umtb.id
      }
@@ -3906,9 +2931,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Wego"
      condition {
       expression = "event.summary matches regex 'wego\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wego\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Wego.id
@@ -3919,9 +2941,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'wisp\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wisp\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Wisp.id
      }
@@ -3930,9 +2949,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Wobi"
      condition {
       expression = "event.summary matches regex 'wobi\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'wobi\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Wobi.id
@@ -3943,9 +2959,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'xnes\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'xnes\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Xnes.id
      }
@@ -3954,9 +2967,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ace"
      condition {
       expression = "event.summary matches regex 'ace\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ace\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ace.id
@@ -3967,9 +2977,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'box\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'box\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Box.id
      }
@@ -3978,9 +2985,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Fwd"
      condition {
       expression = "event.summary matches regex 'fwd\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'fwd\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Fwd.id
@@ -3991,9 +2995,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'gmc\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'gmc\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Gmc.id
      }
@@ -4002,9 +3003,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Iai"
      condition {
       expression = "event.summary matches regex 'iai\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iai\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Iai.id
@@ -4015,9 +3013,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'iec\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'iec\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Iec.id
      }
@@ -4026,9 +3021,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Mda"
      condition {
       expression = "event.summary matches regex 'mda\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'mda\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Mda.id
@@ -4039,9 +3031,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'ort\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ort\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Ort.id
      }
@@ -4050,9 +3039,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Rpx"
      condition {
       expression = "event.summary matches regex 'rpx\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'rpx\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Rpx.id
@@ -4063,9 +3049,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 's21\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 's21\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.S21.id
      }
@@ -4074,9 +3057,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Stm"
      condition {
       expression = "event.summary matches regex 'stm\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'stm\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Stm.id
@@ -4087,9 +3067,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'tlv\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'tlv\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Tlv.id
      }
@@ -4098,9 +3075,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Ubi"
      condition {
       expression = "event.summary matches regex 'ubi\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'ubi\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Ubi.id
@@ -4111,9 +3085,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      condition {
       expression = "event.summary matches regex 'via\\\\b'"
      }
-     condition {
-      expression = "event.custom_details.firing matches regex 'via\\\\b'"
-     }
      actions {
       route_to = pagerduty_service.Via.id
      }
@@ -4122,9 +3093,6 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
      label = "Events relating to Pm"
      condition {
       expression = "event.summary matches regex 'pm\\\\b'"
-     }
-     condition {
-      expression = "event.custom_details.firing matches regex 'pm\\\\b'"
      }
      actions {
       route_to = pagerduty_service.Pm.id
