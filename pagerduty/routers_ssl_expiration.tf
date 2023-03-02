@@ -3101,7 +3101,7 @@ resource "pagerduty_event_orchestration_router" "router_ssl_expiration" {
   }
   catch_all {
     actions {
-      route_to = "unrouted"
+      route_to = "PSAAQF1"
     }
   }
 }

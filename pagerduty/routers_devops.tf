@@ -4133,7 +4133,7 @@ resource "pagerduty_event_orchestration_router" "router" {
   }
   catch_all {
     actions {
-      route_to = "unrouted"
+      route_to = "PQ6EG8U"
     }
   }
 }
